@@ -26,10 +26,10 @@ a:link {
 	color:white;
 }
 a:visited {
-	color:yellow;
+	color:darkorange;
 }
 a:hover {
-	color:red;
+	color:darkred;
 }
 a:active {
 	color:blue;
