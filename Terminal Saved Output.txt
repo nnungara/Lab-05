@@ -1,0 +1,217 @@
+Last login: Tue May  2 12:18:23 on console
+grc-kenya:~ nnungara$ cd/Desktop/338_03_L5_nnungara
+-bash: cd/Desktop/338_03_L5_nnungara: No such file or directory
+grc-kenya:~ nnungara$ git init
+Initialized empty Git repository in /Users/nnungara/.git/
+grc-kenya:~ nnungara$ git add -A
+            
+git commitfatal: unable to stat 'Library/Logs/DiagnosticReports/node_2017-05-02-125040_grc-kenya.crash': No such file or directory
+grc-kenya:~ nnungara$ 
+grc-kenya:~ nnungara$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+grc-kenya:~ nnungara$ cd Desktop/338_03_L5_nnungara
+grc-kenya:338_03_L5_nnungara nnungara$ git init
+Initialized empty Git repository in /Users/nnungara/Desktop/338_03_L5_nnungara/.git/
+grc-kenya:338_03_L5_nnungara nnungara$ git -A
+Unknown option: -A
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+grc-kenya:338_03_L5_nnungara nnungara$ git add -A
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m 
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m "add files"
+[master (root-commit) c791a20] add files
+ 8 files changed, 6328 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/Logo.ai
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+ create mode 100644 styles.css
+grc-kenya:338_03_L5_nnungara nnungara$ git add -A
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m "changed illustrator to gif"
+[master 07e6d6e] changed illustrator to gif
+ 5 files changed, 63 insertions(+), 1 deletion(-)
+ rename styles.css => css/styles.css (100%)
+ create mode 100644 images/.DS_Store
+ create mode 100644 images/logo.gif
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m "added nav bar"
+On branch master
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   css/styles.css
+	modified:   index.html
+
+no changes added to commit
+grc-kenya:338_03_L5_nnungara nnungara$ git add -A
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m "added nav bar"
+[master 7ed83c9] added nav bar
+ 3 files changed, 76 insertions(+), 5 deletions(-)
+grc-kenya:338_03_L5_nnungara nnungara$ git remote add origin https://github.com/nnungara/Lab-05.git
+grc-kenya:338_03_L5_nnungara nnungara$ git push -u origin master
+Counting objects: 25, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 2.68 MiB | 1.74 MiB/s, done.
+Total 25 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/nnungara/Lab-05.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -m "added commments"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   index.html
+
+no changes added to commit
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -am "added comments"
+[master 2c62730] added comments
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -am "stylized nav bar"
+[master 965a535] stylized nav bar
+ 1 file changed, 13 insertions(+), 4 deletions(-)
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -am "style changes"
+[master cb7b98a] style changes
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+grc-kenya:338_03_L5_nnungara nnungara$ git push
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.33 KiB | 0 bytes/s, done.
+Total 11 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/nnungara/Lab-05.git
+   7ed83c9..cb7b98a  master -> master
+grc-kenya:338_03_L5_nnungara nnungara$ git commit -am "final touches"
+[master 5acc524] final touches
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+grc-kenya:338_03_L5_nnungara nnungara$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 296 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+git coTo https://github.com/nnungara/Lab-05.git
+   cb7b98a..5acc524  master -> master
+grc-kenya:338_03_L5_nnungara nnungara$ git log
+commit 5acc5241ece9c71102819f6462f8edf255f3e4fe
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 2 14:47:49 2017 -0700
+
+    final touches
+
+commit cb7b98a416aba1f39cb782a03210a6b72f42c57d
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 2 14:41:14 2017 -0700
+
+    style changes
+
+commit 965a53598b2e4540cb2941703539dfacf7336c69
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 2 14:36:32 2017 -0700
+
+    stylized nav bar
+
+commit 2c62730739fcc5667c721a0b09d75a40b49158bf
+Author: Nathan Nungaray <nnungara@calpoly.edu>
+Date:   Tue May 2 14:13:42 2017 -0700
+
+    added comments
+:
