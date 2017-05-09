@@ -74,4 +74,10 @@ tr:nth-child(2){
  /* end home page styling */
 
 /* begin contact page styling */
+form{
+	font-family: 'Roboto', sans-serif;
+}
+fieldset{
+	background-color: #F7DC97;
+}
 
