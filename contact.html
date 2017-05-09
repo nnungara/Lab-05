@@ -2,9 +2,84 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>Contact</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href ="#shop.html">Shop</a></li>
+		<li><a href="#customize.html">Customize</a></li>
+		<li><a href="#innovation.html">Innovation</a></li>
+		<li><a href="#ourstoryandcontact.html">Our Story & Contact</a></li>
+	</ul>
+	</nav>
+	
+<!--form-->	
+<form>
+	<p>	Name<input type="text" name="name" size="15"/> 
+		Address<input type="text" name="address" size="30"
+		maxlength="50"/> </p>
+	<p>	City<input type="text" name="city" size="15"
+		maxlength="30"/> 
+		State<input type="text" name="state" size="15"
+		maxlength="30"/></p> 
+		Zip<input type="text" name="zip" size="5"/> 
+	<p>	Phone Number<input type="text" name="phone number" 			size="10" maxlength="15"/> 
+		Email<input type="text" name="name" size="30"
+		maxlength="50"/> 
+		Gender<select name="gender">
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+		<option value="Other">Other</option>
+		<option value="Prefer not to answer">Prefer not to answer</option>
+		</select></p>
+  <p> Pick your five favorite colors:</p> 
+	<p>	<input type="checkbox" name="color" value="blue"/>Blue
+		<input type="checkbox" name="color" value="green"/>Green
+	  <input type="checkbox" name="color" value="red"/>Red
+		<input type="checkbox" name="color" value="yellow"/>Yellow
+	  <input type="checkbox" name="color" value="orange"/>Orange
+		<input type="checkbox" name="color" value="black"/>Black
+	  <input type="checkbox" name="color" value="gray"/>Gray
+		<input type="checkbox" name="color" value="pink"/>Pink
+		<input type="checkbox" name="color" value="purple"/>Purple
+	</p>
+   <fieldset>
+	   <legend> Credit Card Information </legend>
+	<p> Name on the Card <input type="text" name="credit card" 		size="30"/> </p>
+	<p>	Credit Card <input type="text" name="credit card" 			size="16" maxlength="16"/> </p>
+	<p>	Exp. Date <select name="date">
+		<option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+	  </select>
+	  	/ <select name="date">
+	  	<option value="2017">2017</option>
+	  	<option value="2018">2018</option>
+	  	<option value="2019">2019</option>
+	  	<option value="2020">2020</option>
+	  	<option value="2021">2021</option>
+	  	<option value="2022">2022</option>
+	  </select>
+	</p>
+	<p> Billing Zip <input type="text" name="credit card" size="5" maxlength="10"/>
+	</p>
+	</fieldset>
+</form>	
+
 </body>
 </html>
